@@ -22,6 +22,11 @@ public class Main {
                 result.append(parentheses.charAt(i));
             }
         }
+        
+        if (indexesList.isEmpty()) {
+            return "0";
+        }
+        
         return indexesList.size() + " - " + result;
     }
 
